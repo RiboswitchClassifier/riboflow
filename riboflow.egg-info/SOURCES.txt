@@ -1,6 +1,6 @@
-MANIFEST.in
 README.md
 setup.py
+riboflow/__init__.py
 riboflow.egg-info/PKG-INFO
 riboflow.egg-info/SOURCES.txt
 riboflow.egg-info/dependency_links.txt
