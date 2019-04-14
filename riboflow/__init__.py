@@ -58,7 +58,7 @@ def clean_sequnces(sequences):
 
 # Check if Only supported charecters exist
 def check_supported_charecters(cleaned_sequences):
-    for sequence in sequences:
+    for sequence in cleaned_sequences:
         valid = set(sequence).issubset('ATGCN')
         if valid == False:
             return None, sequence
@@ -91,7 +91,7 @@ def construct_output(class_wise_probabilty):
 
 # Load the Model    
 def load_riboswitch_model():
-    path = "model/rnn_24_model.h5"
+    path = "static/rnn_24_model.h5"
     model_loaded = load_model(path)
     return model_loaded    
 
@@ -157,15 +157,4 @@ def predict(sequences,option="predict_class"):
         result = str(the_exception)
     print ("The result")
     print (result)
-    # return result
-
-# Input Sequence
-sequences = [
-    "TTTTTTTTGCAGGGGTGGCTTTAGGGCCTGAGAAGATACCCATTGAACCTGACCTGGCTAAAACCAGGGTAGGGAATTGCAGAAATGTCCTCATT",
-    "CTCTTATCCAGAGCGGTAGAGGGACTGGCCCTTTGAAGCCCAGCAACCTACACTTTTTGTTGTAAGGTGCTAACCTGAGCAGGAGAAATCCTGACCGATGAGAG",
-    "CCACGATAAAGGTAAACCCTGAGTGATCAGGGGGCGCAAAGTGTAGGATCTCAGCTCAAGTCATCTCCAGATAAGAAATATCAGAAAGATAGCCTTACTGCCGAA"
-]
-
-predict(sequences, "predict_class")
-predict(sequences, "predict_prob")
 

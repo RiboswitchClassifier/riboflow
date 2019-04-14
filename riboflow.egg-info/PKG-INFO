@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: riboflow
+Version: 0.1.dev0
+Summary: A utility package to classify different Riboswitch Sequences
+Home-page: https://github.com/KeshavAdityaRP/riboflow
+Author: Keshav Aditya R.P
+Author-email: keshavaditya26896@gmail.com
+License: UNKNOWN
+Description: # riboflow
+        A pip install-able python package to classify a unknown Riboswitch Sequence among 24 different Riboswitch Labels 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
