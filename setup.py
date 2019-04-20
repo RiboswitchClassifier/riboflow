@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="riboflow",
-    version="0.7dev",
+    version="0.8dev",
     author="Keshav Aditya R.P",
     author_email="keshavaditya26896@gmail.com",
     description="A utility package to classify different Riboswitch Sequences",
