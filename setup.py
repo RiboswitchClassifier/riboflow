@@ -6,14 +6,14 @@ with open("README.md", "r") as fh:
 
 setup(
     name="riboflow",
-    version="0.2dev",
+    version="0.7dev",
     author="Keshav Aditya R.P",
     author_email="keshavaditya26896@gmail.com",
     description="A utility package to classify different Riboswitch Sequences",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/KeshavAdityaRP/riboflow",
-    packages=find_packages('riboflow'),
+    packages=['riboflow'],
     include_package_data = True,
     classifiers=[
         "Programming Language :: Python :: 3",
