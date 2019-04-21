@@ -24,28 +24,13 @@ Package Structure
 
 After asking some basic questions, the tool will create the following project layout for you::
 
-   <project_name>/
-     |
-     +-- .gitignore           # Git configuration
-     +-- .travis.yml          # Travis-CI configuration    
-     +-- bootstrap.py         # Buildout bootstrap-script
-     +-- buildout.cfg         # Buildout project configuration
-     +-- setup.cfg            # Configuration for py.test and other tools
-     +-- README.md            # Information on how to use the project
-     +-- src/                 # Directory for keeping (possible multiple) project eggs
-         |
-         +- <egg_name>/       # First egg of the project
-            |
-            +-- package/      # Python source files
-            +-- tests/        # Tests
-            +-- .gitignore    # Git configuration
-            +-- .travis.yml   # Travis-CI configuration
-            +-- setup.cfg     # Configuration for py.test and other tools
-            +-- setup.py      # Package metadata
-            +-- MANIFEST.in   # Files to include in the package
-            +-- README.rst    # Package description
-            +-- LICENSE.txt   # License
-            +-- CHANGELOG.txt # Changelog
+    .
+    ├── ...
+    ├── test                    # Test files (alternatively `spec` or `tests`)
+    │   ├── benchmarks          # Load and stress tests
+    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
+    │   └── unit                # Unit tests
+    └── ...
 
 Usage
 -----
