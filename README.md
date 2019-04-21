@@ -1,19 +1,19 @@
 # RIBOFLOW
 
-This is  `Riboflow <https://test.pypi.org/project/riboflow/>`, a python package to help classify Riboswitch Sequences. The following Riboswitches have been accounted for :
+This is `Riboflow <https://test.pypi.org/project/riboflow/>`_ , a python package to help classify Riboswitch Sequences. The following Riboswitches have been accounted for :
 
-    *'RF00050 - Flavin Mononucleotide Riboswitch',
-    *'RF00059 - Thiamine pyrophosphate riboswitch',
-    *'RF00162 - SAM - 1 Riboswitch',
-    *'RF00167 - Purine Riboswitch',
-    *'RF00168 - Lysine Riboswitch',
-    *'RF00174 - Cobalamin riboswitch',
-    *'RF00234 - Glucosamine-6-phosphate riboswitch',
-    *'RF00380 - Ykok riboswitch(Magnesium sensing riboswitch)',
-    *'RF00504 - Glycine riboswitch',
-    *'RF00521 - SAM - 2 Riboswitch',
-    *'RF00522 - pre-queosine riboswitch1',
-    *'RF00634 - SAM - 4 Riboswitch',
+    1.  'RF00050 - Flavin Mononucleotide Riboswitch',
+    2.  'RF00059 - Thiamine pyrophosphate riboswitch',
+    3.  'RF00162 - SAM - 1 Riboswitch',
+    4.  'RF00167 - Purine Riboswitch',
+    5.  'RF00168 - Lysine Riboswitch',
+    6.  'RF00174 - Cobalamin riboswitch',
+    7.  'RF00234 - Glucosamine-6-phosphate riboswitch',
+    8.  'RF00380 - Ykok riboswitch(Magnesium sensing riboswitch)',
+    9.  'RF00504 - Glycine riboswitch',
+    10. 'RF00521 - SAM - 2 Riboswitch',
+    11. 'RF00522 - pre-queosine riboswitch1',
+    12. 'RF00634 - SAM - 4 Riboswitch',
     *'RF01051 - Cyclic di-GMP-I riboswitches',
     *'RF01054 - pre-queosine riboswitch2',
     *'RF01055 - Molybdenum Co-factor riboswitch',
