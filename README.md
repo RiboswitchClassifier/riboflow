@@ -107,7 +107,19 @@ References
 Acknowledgement
 ----------
 
-  * We thank [Barath Goel](https://github.com/jquery/jquery) for helping us package the application.
+  * We thank [Barath Goel](https://github.com/BharatGoel36) for helping us package the application.
+  
+Authors
+----------
+
+  * Keshav Aditya R.P
+    - [Github](https://github.com/KeshavAdityaRP)
+    - [LinkedIn](https://www.linkedin.com/in/keshavadityarp/)
+  * Ramit Bharanikumar
+    - [Github](https://github.com/ramit29)
+    - [LinkedIn](https://www.linkedin.com/in/ramit-bharanikumar-12a014114/)
+   * Ashok Palaniappan
+    - [LinkedIn](https://www.linkedin.com/in/ashokpalaniappan/)
 
 
 Copyright & License
