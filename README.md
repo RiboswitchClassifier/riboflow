@@ -1,6 +1,4 @@
-===========================
-RIBOFLOW
-===========================
+#RIBOFLOW
 
 This is a `PasteScript <http://pythonpaste.org/script/>`_ template for generating a Python project. It provides simple starting points for using some of the popular best-practices:
 
@@ -23,6 +21,8 @@ Note that the source code to generate the ``Bi-directional Recurent Neural Netwo
 
 Package Structure
 -----
+
+After asking some basic questions, the tool will create the following project layout for you::
 
    <project_name>/
      |
