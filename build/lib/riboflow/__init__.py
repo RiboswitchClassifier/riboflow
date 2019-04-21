@@ -2,6 +2,7 @@
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 import numpy as np
+import pkg_resources
 
 # Names of 24 riboswitches
 riboswitch_names = [
@@ -92,7 +93,8 @@ def construct_output(class_wise_probabilty):
 # Load the Model    
 def load_riboswitch_model():
     path = "rnn_24_model.h5"
-    model_loaded = load_model(path)
+    filepath = pkg_resources.resource_filename(__name__, path)
+    model_loaded = load_model(filepath)
     return model_loaded    
 
 # Perform Predict Class
@@ -139,8 +141,9 @@ def check_arguments_meet_minimum_requirements(sequences, option):
 
 # Predict the label for the given Riboswitch Sequences 
 def predict(sequences,option="predict_class"):
-    result = check_arguments_meet_minimum_requirements(sequences, option)
+    result = None
     try:
+        result = check_arguments_meet_minimum_requirements(sequences, option)
         if result is None:
             sequences, error = check_isalpha(sequences) 
             if sequences is None:
@@ -156,4 +159,3 @@ def predict(sequences,option="predict_class"):
     except Exception as the_exception:
         result = str(the_exception)
     return result
-
