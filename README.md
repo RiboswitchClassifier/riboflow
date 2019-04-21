@@ -1,6 +1,9 @@
 # RIBOFLOW
 
-This is `Riboflow <https://test.pypi.org/project/riboflow/>`_ , a python package to help classify Riboswitch Sequences. The following Riboswitches have been accounted for :
+This is _`Riboflow <https://test.pypi.org/project/riboflow/>`_ , a python package to help classify Riboswitch Sequences :
+
+Riboswitches Accounted For 
+------------
 
     1.  'RF00050 - Flavin Mononucleotide Riboswitch',
     2.  'RF00059 - Thiamine pyrophosphate riboswitch',
@@ -14,18 +17,18 @@ This is `Riboflow <https://test.pypi.org/project/riboflow/>`_ , a python package
     10. 'RF00521 - SAM - 2 Riboswitch',
     11. 'RF00522 - pre-queosine riboswitch1',
     12. 'RF00634 - SAM - 4 Riboswitch',
-    *'RF01051 - Cyclic di-GMP-I riboswitches',
-    *'RF01054 - pre-queosine riboswitch2',
-    *'RF01055 - Molybdenum Co-factor riboswitch',
-    *'RF01057 - SAH Riboswitch',
-    *'RF01725 - SAM -1 -4 Variant riboswitch',
-    *'RF01726 - SAM - 2 Long loop riboswitch',
-    *'RF01727 - SAM-SAH Riboswitch',
-    *'RF01734 - Fluoride Riboswitch',
-    *'RF01739 - Glutamine riboswitch',
-    *'RF01763 - Guanidine - 3 Riboswitch',
-    *'RF01767 - SAM - 3 Riboswitch',
-    *'RF02683 - NiCo riboswitch(sense Nickel or Cobalt)'
+    13. 'RF01051 - Cyclic di-GMP-I riboswitches',
+    14. 'RF01054 - pre-queosine riboswitch2',
+    15. 'RF01055 - Molybdenum Co-factor riboswitch',
+    16. 'RF01057 - SAH Riboswitch',
+    17. 'RF01725 - SAM -1 -4 Variant riboswitch',
+    18. 'RF01726 - SAM - 2 Long loop riboswitch',
+    19. 'RF01727 - SAM-SAH Riboswitch',
+    20. 'RF01734 - Fluoride Riboswitch',
+    21. 'RF01739 - Glutamine riboswitch',
+    22. 'RF01763 - Guanidine - 3 Riboswitch',
+    23. 'RF01767 - SAM - 3 Riboswitch',
+    24. 'RF02683 - NiCo riboswitch(sense Nickel or Cobalt)'
 
 
 Installation
