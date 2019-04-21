@@ -40,9 +40,9 @@ The easiest way to install the package is via ``pip``::
     
 The ``riboflow`` package has : 
     
-    ``numpy==1.14.5``  
-    ``tensorflow==1.8.0``   
-    ``keras==2.2.0`` 
+    numpy==1.14.5
+    tensorflow==1.8.0   
+    keras==2.2.0 
     
 as some of it's dependencies and has been tested using ``Python 3.5.2``. 
 A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (it will be installed automatically via the above mentioned``pip installation``). 
