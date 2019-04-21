@@ -1,11 +1,31 @@
 # RIBOFLOW
 
-This is a `PasteScript <http://pythonpaste.org/script/>`_ template for generating a Python project. It provides simple starting points for using some of the popular best-practices:
+This is  `Riboflow <https://test.pypi.org/project/riboflow/>`, a python package to help classify Riboswitch Sequences. The following Riboswitches have been accounted for :
 
-  * Proper `setuptools <https://pypi.python.org/pypi/setuptools>`_-compatible package layout.
-  * `py.test <http://pytest.org/>`_-based tests.
-  * `buildout <http://www.buildout.org/>`_ for managing development tools or developing multiple-package projects
-  * Usage of the `Travis-CI <https://travis-ci.org/>`_ continuous integration service.
+    *'RF00050 - Flavin Mononucleotide Riboswitch',
+    *'RF00059 - Thiamine pyrophosphate riboswitch',
+    *'RF00162 - SAM - 1 Riboswitch',
+    *'RF00167 - Purine Riboswitch',
+    *'RF00168 - Lysine Riboswitch',
+    *'RF00174 - Cobalamin riboswitch',
+    *'RF00234 - Glucosamine-6-phosphate riboswitch',
+    *'RF00380 - Ykok riboswitch(Magnesium sensing riboswitch)',
+    *'RF00504 - Glycine riboswitch',
+    *'RF00521 - SAM - 2 Riboswitch',
+    *'RF00522 - pre-queosine riboswitch1',
+    *'RF00634 - SAM - 4 Riboswitch',
+    *'RF01051 - Cyclic di-GMP-I riboswitches',
+    *'RF01054 - pre-queosine riboswitch2',
+    *'RF01055 - Molybdenum Co-factor riboswitch',
+    *'RF01057 - SAH Riboswitch',
+    *'RF01725 - SAM -1 -4 Variant riboswitch',
+    *'RF01726 - SAM - 2 Long loop riboswitch',
+    *'RF01727 - SAM-SAH Riboswitch',
+    *'RF01734 - Fluoride Riboswitch',
+    *'RF01739 - Glutamine riboswitch',
+    *'RF01763 - Guanidine - 3 Riboswitch',
+    *'RF01767 - SAM - 3 Riboswitch',
+    *'RF02683 - NiCo riboswitch(sense Nickel or Cobalt)'
 
 
 Installation
