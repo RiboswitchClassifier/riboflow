@@ -1,6 +1,6 @@
 # RIBOFLOW
 
-This is _`Riboflow <https://test.pypi.org/project/riboflow/>`_ , a python package to help classify Riboswitch Sequences :
+This is `Riboflow` (`https://test.pypi.org/project/riboflow/`), a python package to help classify Riboswitch Sequences among 24 different Riboswitches.
 
 Riboswitches Accounted For 
 ------------
@@ -38,22 +38,25 @@ The easiest way to install the package is via ``pip``::
 
     $ pip install -i https://test.pypi.org/simple/ riboflow==0.13.dev0
     
-The ``riboflow`` package has ``numpy==1.14.5``, ``tensorflow==1.8.0``, ``keras==2.2.0`` as some of it's dependencies and has been tested using ``Python 3.5.2`` . A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (it will be installed automatically with via the above mentioned``pip installation``). 
+The ``riboflow`` package has ``numpy==1.14.5``, ``tensorflow==1.8.0``, ``keras==2.2.0`` as some of it's dependencies and has been tested using ``Python 3.5.2``. A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (it will be installed automatically via the above mentioned``pip installation``). 
 
 Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository `https://github.com/RiboswitchClassifier/RiboswitchClassification` can be forked to generate a new model.
 
 Package Structure
 -----
 
-After asking some basic questions, the tool will create the following project layout for you::
-
     .
-    ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    └── ...
+    ├── build                       # Buildout project configuration
+    ├── dist                        # Consists of  .whl and .tar package files
+    ├── riboflow                    # Package Directory
+    │   ├── __init__.py             # main file
+    │   ├── rnn_24_model.h5         # Bi-directional Recurent Neural Network Model
+    ├── riboflow.egg-info           # Egg information of the project
+    ├── LICENSE                     # License
+    ├── MANIFEST.in                 # To include the Bi-directional Recurent Neural Network Model within the package
+    ├── README.md                   # Package description
+    └── setup.py                    # Package metadata
+
 
 Usage
 -----
