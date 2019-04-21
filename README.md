@@ -1,4 +1,4 @@
-#RIBOFLOW
+# RIBOFLOW
 
 This is a `PasteScript <http://pythonpaste.org/script/>`_ template for generating a Python project. It provides simple starting points for using some of the popular best-practices:
 
