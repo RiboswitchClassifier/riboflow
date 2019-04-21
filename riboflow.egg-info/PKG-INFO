@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: riboflow
-Version: 0.8.dev0
+Version: 0.9.dev0
 Summary: A utility package to classify different Riboswitch Sequences
 Home-page: https://github.com/KeshavAdityaRP/riboflow
 Author: Keshav Aditya R.P

@@ -91,7 +91,7 @@ def construct_output(class_wise_probabilty):
 
 # Load the Model    
 def load_riboswitch_model():
-    path = "riboflow/rnn_24_model.h5"
+    path = "rnn_24_model.h5"
     model_loaded = load_model(path)
     return model_loaded    
 
