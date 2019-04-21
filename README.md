@@ -1,6 +1,6 @@
 # RIBOFLOW
 
-This is `Riboflow` (`https://test.pypi.org/project/riboflow/`), a python package to help classify Riboswitch Sequences among 24 different Riboswitches.
+This is [Riboflow](https://test.pypi.org/project/riboflow/), a python package to help classify Riboswitch Sequences among 24 different Riboswitches.
 
 Riboswitches Accounted For 
 ------------
@@ -46,7 +46,7 @@ The ``riboflow`` package has :
 as some of it's dependencies and has been tested using ``Python 3.5.2``. 
 A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (it will be installed automatically via the above mentioned``pip installation``). 
 
-Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository `https://github.com/RiboswitchClassifier/RiboswitchClassification` can be forked to generate a new model.
+Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository [Riboswitch Classification](https://github.com/RiboswitchClassifier/RiboswitchClassification) can be forked to generate a new model.
 
 Package Structure
 -----
