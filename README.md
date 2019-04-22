@@ -1,6 +1,6 @@
-# RIBOFLOW
+# RIBOFLOW - classifying riboswitches with > 99% accuracy
 
-This is [riboflow](https://test.pypi.org/project/riboflow/), a python package for the classification of putative riboswitch sequences into one of 24 classes with > 99% accuracy. It is based on a [tensorflow](https://www.tensorflow.org) deep learning model. ``riboflow`` has been tested using ``Python 3.5.2``.
+[riboflow](https://test.pypi.org/project/riboflow/) is a python package for the classification of putative riboswitch sequences into one of 24 classes with > 99% accuracy. It is based on a [tensorflow](https://www.tensorflow.org) deep learning model. ``riboflow`` has been tested using ``Python 3.5.2``.
 
 Installation
 ------------
@@ -15,9 +15,7 @@ Dependencies:
     tensorflow==1.8.0   
     keras==2.2.0 
     
-A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (and installed automatically with the ``pip``). 
-
-Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository [Riboswitch Classification](https://github.com/RiboswitchClassifier/RiboswitchClassification) could be forked to generate a new model.
+A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (and installed automatically with the ``pip``). Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository [Riboswitch Classification](https://github.com/RiboswitchClassifier/RiboswitchClassification) could be forked to generate a new model.
 
 Usage
 -------------------
