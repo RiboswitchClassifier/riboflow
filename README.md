@@ -7,7 +7,7 @@ Installation
 
 The easiest way to install the package is via ``pip``::
 
-    $ pip install -i https://test.pypi.org/simple/ riboflow==0.13.dev0
+    $ pip install -i https://test.pypi.org/simple/riboflow==0.13.dev0
     
 Dependencies:
     
@@ -15,14 +15,14 @@ Dependencies:
     tensorflow==1.8.0   
     keras==2.2.0 
     
-A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (and installed automatically with the ``pip installation``). 
+A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (and installed automatically with the ``pip``). 
 
-Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository [Riboswitch Classification](https://github.com/RiboswitchClassifier/RiboswitchClassification) can be forked to generate a new model.
+Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository [Riboswitch Classification](https://github.com/RiboswitchClassifier/RiboswitchClassification) could be forked to generate a new model.
 
 Usage
 -------------------
 
-Once you have successfully installed `riboflow` using `pip install riboflow`, please follow the steps to predict the class of a new riboswitch sequence:
+Once `riboflow` is successfully installed, please follow the steps to predict the class of a new riboswitch sequence:
 
 **1. Import the package**:
 
@@ -90,7 +90,7 @@ Authors
   * Ramit Bharanikumar
     - [Github](https://github.com/ramit29)
     - [LinkedIn](https://www.linkedin.com/in/ramit-bharanikumar-12a014114/)
-   * [Ashok Palaniappan](http://www.sastra.edu/staffprofiles/schools/scbt.php?staff_id=C2164)
+  * [Ashok Palaniappan](http://www.sastra.edu/staffprofiles/schools/scbt.php?staff_id=C2164)
     - [Github](https://github.com/apalania)
     - [LinkedIn](https://www.linkedin.com/in/ashokpalaniappan/)
 
