@@ -17,6 +17,34 @@ Dependencies:
     
 A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (and installed automatically with the ``pip``). Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository [Riboswitch Classification](https://github.com/RiboswitchClassifier/RiboswitchClassification) could be forked to generate a new model.
 
+Riboswitches Accounted For 
+------------
+
+    1.  'RF00050 - Flavin Mononucleotide Riboswitch',
+    2.  'RF00059 - Thiamine pyrophosphate riboswitch',
+    3.  'RF00162 - SAM - 1 Riboswitch',
+    4.  'RF00167 - Purine Riboswitch',
+    5.  'RF00168 - Lysine Riboswitch',
+    6.  'RF00174 - Cobalamin riboswitch',
+    7.  'RF00234 - Glucosamine-6-phosphate riboswitch',
+    8.  'RF00380 - Ykok riboswitch(Magnesium sensing riboswitch)',
+    9.  'RF00504 - Glycine riboswitch',
+    10. 'RF00521 - SAM - 2 Riboswitch',
+    11. 'RF00522 - pre-queosine riboswitch1',
+    12. 'RF00634 - SAM - 4 Riboswitch',
+    13. 'RF01051 - Cyclic di-GMP-I riboswitches',
+    14. 'RF01054 - pre-queosine riboswitch2',
+    15. 'RF01055 - Molybdenum Co-factor riboswitch',
+    16. 'RF01057 - SAH Riboswitch',
+    17. 'RF01725 - SAM -1 -4 Variant riboswitch',
+    18. 'RF01726 - SAM - 2 Long loop riboswitch',
+    19. 'RF01727 - SAM-SAH Riboswitch',
+    20. 'RF01734 - Fluoride Riboswitch',
+    21. 'RF01739 - Glutamine riboswitch',
+    22. 'RF01763 - Guanidine - 3 Riboswitch',
+    23. 'RF01767 - SAM - 3 Riboswitch',
+    24. 'RF02683 - NiCo riboswitch(sense Nickel or Cobalt)'
+
 Usage
 -------------------
 
