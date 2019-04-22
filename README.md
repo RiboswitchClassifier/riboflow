@@ -82,10 +82,7 @@ References for pypi package development
      - http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
   * Related projects: `[1] <https://pypi.python.org/pypi/modern-package-template>`, `[2] <https://pypi.python.org/pypi/python-package-template/>`, `[3] <https://github.com/vital-fadeev/python-package-template>`.
   
-Acknowledgement
-----------
-
-  * We thank [Barath Goel](https://github.com/BharatGoel36) for helping us package the application. 
+  * _We thank [Barath Goel](https://github.com/BharatGoel36) for helping us package the application._ 
   
 Authors
 ----------
