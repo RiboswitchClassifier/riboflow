@@ -1,6 +1,6 @@
-# RIBOFLOW - classifying riboswitches with > 99% accuracy
+# RIBOFLOW - classifying riboswitches with >99% accuracy
 
-[riboflow](https://test.pypi.org/project/riboflow/) is a python package for the classification of putative riboswitch sequences into one of 24 classes with > 99% accuracy. It is based on a [tensorflow](https://www.tensorflow.org) deep learning model. ``riboflow`` has been tested using ``Python 3.5.2``.
+[riboflow](https://test.pypi.org/project/riboflow/) is a python package for classifying putative riboswitch sequences into one of 24 classes with > 99% accuracy. It is based on a [tensorflow](https://www.tensorflow.org) deep learning model. ``riboflow`` has been tested using ``Python 3.5.2``. 
 
 Installation
 ------------
@@ -24,7 +24,7 @@ Once `riboflow` is successfully installed, please follow the steps to predict th
 
 **1. Import the package**:
 
-  - Inside the python shell or in your python file::
+  - Inside the python shell or in the python file::
 
         > import riboflow
 
@@ -63,6 +63,14 @@ Package Structure
     └── setup.py                    # Package metadata
 
 
+Additional information
+-----
+For more information, please refer to our manuscript below. 
+
+*Premkumar KAR, Bharanikumar R, Palaniappan A.* (2019) Classifying riboswitches with >99% accuracy. **Microorganisms** (submitted)
+
+Please cite us if you use our services.
+
 References for pypi package development
 ----------
 
@@ -72,7 +80,7 @@ References for pypi package development
   * Blog post: http://fouryears.eu/2014/03/19/structure-of-a-python-project/
   * Useful reading
      - http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
-  * Related projects: `[1] <https://pypi.python.org/pypi/modern-package-template>`_, `[2] <https://pypi.python.org/pypi/python-package-template/>`_, `[3] <https://github.com/vital-fadeev/python-package-template>`_.
+  * Related projects: `[1] <https://pypi.python.org/pypi/modern-package-template>`, `[2] <https://pypi.python.org/pypi/python-package-template/>`, `[3] <https://github.com/vital-fadeev/python-package-template>`.
   
 Acknowledgement
 ----------
