@@ -43,7 +43,7 @@ Once `riboflow` is installed, please follow the steps to predict the class of a 
 
         > import riboflow
 
-**2. Construct a list of riboswitch sequences **:
+**2. Construct a list of riboswitch sequences**:
 
         > # A sequence is a string in alphabet 'ATGC'
         > sequences = [
