@@ -15,7 +15,52 @@ Dependencies:
     tensorflow==1.8.0   
     keras==2.2.0 
     
-A trained ``Bi-directional Recurent Neural Network Model`` is integrated into the ``riboflow`` package (and installed automatically with the ``pip``). Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository [Riboswitch Classification](https://github.com/RiboswitchClassifier/RiboswitchClassification) could be forked to generate a new model.
+A trained ``Bi-directional Recurent Neural Network (RNN) Model`` is integrated into the ``riboflow`` package (and installed automatically with the ``pip``). Note that the source code to generate the ``Bi-directional Recurent Neural Network Model`` is available. The git repository [Riboswitch Classification](https://github.com/RiboswitchClassifier/RiboswitchClassification) could be forked to generate a new model.
+
+Problem Statement
+-------------------
+Riboswitches are metabolite-sensing mRNAs, for e.g, amino acid or metal ion sensors, that switch conformation upon binding the cognate ligand, thereby exerting control on translation. It would be of interest to classfify the ligand-specificity of riboswitches given their sequence. 
+
+**The prediction problem**:
+
+Given the riboswitch sequence, predict the riboswitch class (as given by the ligand-specificity of the riboswitch).
+
+**Machine learning formulation**:
+ - Input: Riboswitch sequence
+ - Source dataset: Rfam database (rfam.org)
+ - Output: Riboswitch class 
+ - Best-performing Classifier: Bi-directional RNN (>99% accuracy)
+ - Features used in the best-performing classifier: the full riboswitch sequence
+
+Usage
+-------------------
+
+Once `riboflow` is installed, please follow the steps to predict the class of a new riboswitch sequence:
+
+**1. Import the package**:
+
+  - Inside the python shell or in the python file::
+
+        > import riboflow
+
+**2. Construct an array of riboswitch sequences**:
+
+        > # Input Sequence
+        > sequences = [
+            "TTTTTTTTGCAGGGGTGGCTTTAGGGCCTGAGAAGATACCCATTGAACCTGACCTGGCTAAAACCAGGGTAGGGAATTGCAGAAATGTCCTCATT",
+            "CTCTTATCCAGAGCGGTAGAGGGACTGGCCCTTTGAAGCCCAGCAACCTACACTTTTTGTTGTAAGGTGCTAACCTGAGCAGGAGAAATCCTGACCGATGAGAG",
+            "CCACGATAAAGGTAAACCCTGAGTGATCAGGGGGCGCAAAGTGTAGGATCTCAGCTCAAGTCATCTCCAGATAAGAAATATCAGAAAGATAGCCTTACTGCCGAA"
+          ]
+
+**3a. Predict the class for each riboswitch sequence**:
+
+        > # Predict the most probable riboswitch class of each sequence
+        > riboflow.predict(sequences, "predict_class")
+        
+**3b. Predict a vector of class probabilities for each riboswitch sequence**:
+
+        > # Predict probabilty of each riboswitch class associated with each sequence 
+        > riboflow.predict(sequences, "predict_prob")
 
 Riboswitches Accounted For 
 ------------
@@ -44,36 +89,14 @@ Riboswitches Accounted For
     22. 'RF01763 - Guanidine - 3 Riboswitch',
     23. 'RF01767 - SAM - 3 Riboswitch',
     24. 'RF02683 - NiCo riboswitch(sense Nickel or Cobalt)'
+    
+Additional information
+-----
+For more information, please refer to our manuscript below. 
 
-Usage
--------------------
+*Premkumar KAR, Bharanikumar R, Palaniappan A.* (2019) Classifying riboswitches with >99% accuracy. **Microorganisms** (to be submitted)
 
-Once `riboflow` is successfully installed, please follow the steps to predict the class of a new riboswitch sequence:
-
-**1. Import the package**:
-
-  - Inside the python shell or in the python file::
-
-        > import riboflow
-
-**2. Construct an array of riboswitch sequences**:
-
-        > # Input Sequence
-        > sequences = [
-            "TTTTTTTTGCAGGGGTGGCTTTAGGGCCTGAGAAGATACCCATTGAACCTGACCTGGCTAAAACCAGGGTAGGGAATTGCAGAAATGTCCTCATT",
-            "CTCTTATCCAGAGCGGTAGAGGGACTGGCCCTTTGAAGCCCAGCAACCTACACTTTTTGTTGTAAGGTGCTAACCTGAGCAGGAGAAATCCTGACCGATGAGAG",
-            "CCACGATAAAGGTAAACCCTGAGTGATCAGGGGGCGCAAAGTGTAGGATCTCAGCTCAAGTCATCTCCAGATAAGAAATATCAGAAAGATAGCCTTACTGCCGAA"
-          ]
-
-**3a. Predict the class for each riboswitch sequence**:
-
-        > # Predict the most probable riboswitch class of each sequence
-        > riboflow.predict(sequences, "predict_class")
-        
-**3b. Predict a vector of class probabilities for each riboswitch sequence**:
-
-        > # Predict probabilty of each riboswitch class associated with each sequence 
-        > riboflow.predict(sequences, "predict_prob")
+Please cite us if you use our services.
 
 Package Structure
 -----
@@ -90,27 +113,12 @@ Package Structure
     ├── README.md                   # Package description
     └── setup.py                    # Package metadata
 
-
-Additional information
------
-For more information, please refer to our manuscript below. 
-
-*Premkumar KAR, Bharanikumar R, Palaniappan A.* (2019) Classifying riboswitches with >99% accuracy. **Microorganisms** (submitted)
-
-Please cite us if you use our services.
-
-References for pypi package development
+References and acknowledgements for pypi package development
 ----------
 
-  * PyPI Page: http://pypi.python.org/pypi/python_boilerplate_template
-  * Github: https://github.com/konstantint/python-boilerplate-template
-  * Cookiecutter version: https://github.com/konstantint/cookiecutter-python-boilerplate
-  * Blog post: http://fouryears.eu/2014/03/19/structure-of-a-python-project/
-  * Useful reading
-     - http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
-  * Related projects: `[1] <https://pypi.python.org/pypi/modern-package-template>`, `[2] <https://pypi.python.org/pypi/python-package-template/>`, `[3] <https://github.com/vital-fadeev/python-package-template>`.
-  
-  * _We thank [Barath Goel](https://github.com/BharatGoel36) for helping us package the application._ 
+  * http://fouryears.eu/2014/03/19/structure-of-a-python-project/
+  * http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
+  * [Barath Goel](https://github.com/BharatGoel36) provided help in packaging the application. 
   
 Authors
 ----------
@@ -121,7 +129,8 @@ Authors
   * Ramit Bharanikumar
     - [Github](https://github.com/ramit29)
     - [LinkedIn](https://www.linkedin.com/in/ramit-bharanikumar-12a014114/)
-  * [Ashok Palaniappan](http://www.sastra.edu/staffprofiles/schools/scbt.php?staff_id=C2164)
+  * Ashok Palaniappan
+    - [Senior Assistant Professor](http://www.sastra.edu/staffprofiles/schools/scbt.php?staff_id=C2164)
     - [Github](https://github.com/apalania)
     - [LinkedIn](https://www.linkedin.com/in/ashokpalaniappan/)
 
@@ -129,5 +138,5 @@ Authors
 Copyright & License
 -------------------
 
-Copyright (c) 2019, `riboflow`. MIT License.
+Copyright (c) 2019, the Authors. MIT License.
 
