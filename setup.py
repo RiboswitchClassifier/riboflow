@@ -6,10 +6,10 @@ with open("README.md", "r") as fh:
 
 setup(
     name="riboflow",
-    version="0.13dev",
+    version="1.0.0",
     author="Keshav Aditya R.P",
     author_email="keshavaditya26896@gmail.com",
-    description="A utility package to classify different Riboswitch Sequences",
+    description="Classifying Putative Riboswitch Sequences",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/KeshavAdityaRP/riboflow",
