@@ -5,9 +5,9 @@
 Installation
 ------------
 
-The easiest way to install the package is via ``pip``::
+The easiest way to install the package is via ``pip``
 
-    $ pip install -i https://test.pypi.org/simple/riboflow==0.13.dev0
+    $ pip install riboflow
     
 Dependencies:
     
