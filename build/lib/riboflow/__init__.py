@@ -6,37 +6,37 @@ import pkg_resources
 
 # Names of 32 riboswitches
 riboswitch_names = [
-    'RF00504 - Glycine Riboswitch'
-    'RF01786 - Cyclic di-GMP-II riboswitch'
-    'RF01750 - ZMP/ZTP riboswitch'
-    'RF00059 - TPP riboswitch (THI element)'
-    'RF01057 - S-adenosyl-L-homocysteine riboswitch'
-    'RF01725 - SAM-I/IV variant riboswitch'
-    'RF00162 - SAM riboswitch (S box leader)'
-    'RF00174 - Cobalamin riboswitch'
-    'RF01055 - Molybdenum Cofactor riboswitch'
-    'RF01727 - SAM/SAH Riboswitch'
-    'RF01482 - Abocbl Riboswitch'
-    'RF03057 - nhaA-I RNA'
-    'RF01734 - Fluroride riboswitch'
-    'RF00167 - Purine Riboswitch'
-    'RF00234 - glmS glucosamine-6-phosphate activated ribozyme'
-    'RF01739 - Glutamine riboswitch'
-    'RF03072 - raiA RNA'
-    'RF03058 - sul RNA'
-    'RF00380 - yKoK leader'
-    'RF00168 - Lysine Riboswitch'
-    'RF03071 - DUF1646 RNA'
-    'RF01689 - Abocbl variant RNA'
-    'RF00379 - ydaO/yuaA leader'
-    'RF00634 - S-adenosyl methionine (SAM) riboswitch'
-    'RF01767 - SMK box translational riboswitch (SAM-III)'
-    'RF00080 - yybP-ykoY manganese riboswitch'
-    'RF02683 - NiCo riboswitch'
-    'RF00442 - Guanidine-I Riboswitch'
-    'RF00522 - PreQ1 Riboswitch'
-    'RF00050 - FMN Riboswitch'
-    'RF01831 - THF riboswitch'
+    'RF00504 - Glycine Riboswitch',
+    'RF01786 - Cyclic di-GMP-II riboswitch',
+    'RF01750 - ZMP/ZTP riboswitch',
+    'RF00059 - TPP riboswitch (THI element)',
+    'RF01057 - S-adenosyl-L-homocysteine riboswitch',
+    'RF01725 - SAM-I/IV variant riboswitch',
+    'RF00162 - SAM riboswitch (S box leader)',
+    'RF00174 - Cobalamin riboswitch',
+    'RF01055 - Molybdenum Cofactor riboswitch',
+    'RF01727 - SAM/SAH Riboswitch',
+    'RF01482 - Abocbl Riboswitch',
+    'RF03057 - nhaA-I RNA',
+    'RF01734 - Fluroride riboswitch',
+    'RF00167 - Purine Riboswitch',
+    'RF00234 - glmS glucosamine-6-phosphate activated ribozyme',
+    'RF01739 - Glutamine riboswitch',
+    'RF03072 - raiA RNA',
+    'RF03058 - sul RNA',
+    'RF00380 - yKoK leader',
+    'RF00168 - Lysine Riboswitch',
+    'RF03071 - DUF1646 RNA',
+    'RF01689 - Abocbl variant RNA',
+    'RF00379 - ydaO/yuaA leader',
+    'RF00634 - S-adenosyl methionine (SAM) riboswitch',
+    'RF01767 - SMK box translational riboswitch (SAM-III)',
+    'RF00080 - yybP-ykoY manganese riboswitch',
+    'RF02683 - NiCo riboswitch',
+    'RF00442 - Guanidine-I Riboswitch',
+    'RF00522 - PreQ1 Riboswitch',
+    'RF00050 - FMN Riboswitch',
+    'RF01831 - THF riboswitch',
     'RF00521 - SAM riboswitch (alpha-proteobacteria)'
 ]
 
