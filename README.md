@@ -65,30 +65,38 @@ Once `riboflow` is installed, please follow the steps to predict the class of a 
 Riboswitches Accounted For 
 ------------
 
-    1.  'RF00050 - Flavin Mononucleotide Riboswitch',
-    2.  'RF00059 - Thiamine pyrophosphate riboswitch',
-    3.  'RF00162 - SAM - 1 Riboswitch',
-    4.  'RF00167 - Purine Riboswitch',
-    5.  'RF00168 - Lysine Riboswitch',
-    6.  'RF00174 - Cobalamin riboswitch',
-    7.  'RF00234 - Glucosamine-6-phosphate riboswitch',
-    8.  'RF00380 - Ykok riboswitch(Magnesium sensing riboswitch)',
-    9.  'RF00504 - Glycine riboswitch',
-    10. 'RF00521 - SAM - 2 Riboswitch',
-    11. 'RF00522 - pre-queosine riboswitch1',
-    12. 'RF00634 - SAM - 4 Riboswitch',
-    13. 'RF01051 - Cyclic di-GMP-I riboswitches',
-    14. 'RF01054 - pre-queosine riboswitch2',
-    15. 'RF01055 - Molybdenum Co-factor riboswitch',
-    16. 'RF01057 - SAH Riboswitch',
-    17. 'RF01725 - SAM -1 -4 Variant riboswitch',
-    18. 'RF01726 - SAM - 2 Long loop riboswitch',
-    19. 'RF01727 - SAM-SAH Riboswitch',
-    20. 'RF01734 - Fluoride Riboswitch',
-    21. 'RF01739 - Glutamine riboswitch',
-    22. 'RF01763 - Guanidine - 3 Riboswitch',
-    23. 'RF01767 - SAM - 3 Riboswitch',
-    24. 'RF02683 - NiCo riboswitch(sense Nickel or Cobalt)'
+    1.  'RF00504 - Glycine Riboswitch'
+    2.  'RF01786 - Cyclic di-GMP-II riboswitch'
+    3.  'RF01750 - ZMP/ZTP riboswitch'
+    4.  'RF00059 - TPP riboswitch (THI element)'
+    5.  'RF01057 - S-adenosyl-L-homocysteine riboswitch'
+    6.  'RF01725 - SAM-I/IV variant riboswitch'
+    7.  'RF00162 - SAM riboswitch (S box leader)'
+    8.  'RF00174 - Cobalamin riboswitch'
+    9.  'RF01055 - Molybdenum Cofactor riboswitch'
+    10. 'RF01727 - SAM/SAH Riboswitch'
+    11. 'RF01482 - Abocbl Riboswitch'
+    12. 'RF03057 - nhaA-I RNA'
+    13. 'RF01734 - Fluroride riboswitch'
+    14. 'RF00167 - Purine Riboswitch'
+    15. 'RF00234 - glmS glucosamine-6-phosphate activated ribozyme'
+    16. 'RF01739 - Glutamine riboswitch'
+    17. 'RF03072 - raiA RNA'
+    18. 'RF03058 - sul RNA'
+    19. 'RF00380 - yKoK leader'
+    20. 'RF00168 - Lysine Riboswitch'
+    21. 'RF03071 - DUF1646 RNA'
+    22. 'RF01689 - Abocbl variant RNA'
+    23. 'RF00379 - ydaO/yuaA leader'
+    24. 'RF00634 - S-adenosyl methionine (SAM) riboswitch'
+    25. 'RF01767 - SMK box translational riboswitch (SAM-III)'
+    26. 'RF00080 - yybP-ykoY manganese riboswitch'
+    27. 'RF02683 - NiCo riboswitch'
+    28. 'RF00442 - Guanidine-I Riboswitch'
+    29. 'RF00522 - PreQ1 Riboswitch'
+    30. 'RF00050 - FMN Riboswitch'
+    31. 'RF01831 - THF riboswitch'
+    32. 'RF00521 - SAM riboswitch (alpha-proteobacteria)'
     
 Additional information
 -----
