@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="riboflow",
-    version="1.0.0",
+    version="1.1.0",
     author="Keshav Aditya R.P",
     author_email="keshavaditya26896@gmail.com",
     description="Classifying Putative Riboswitch Sequences",

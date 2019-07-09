@@ -2,7 +2,7 @@ MANIFEST.in
 README.md
 setup.py
 riboflow/__init__.py
-riboflow/rnn_24_model.h5
+riboflow/rnn_32_model.h5
 riboflow.egg-info/PKG-INFO
 riboflow.egg-info/SOURCES.txt
 riboflow.egg-info/dependency_links.txt
