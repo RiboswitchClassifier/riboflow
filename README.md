@@ -1,5 +1,7 @@
 # RIBOFLOW - classifying riboswitches with >99% accuracy
 
+[pip package v1.1.1](https://pypi.org/project/riboflow/)
+
 [riboflow](https://test.pypi.org/project/riboflow/) is a python package for classifying putative riboswitch sequences into one of 32 classes with > 99% accuracy. It is based on a [tensorflow](https://www.tensorflow.org) deep learning model. ``riboflow`` has been tested using ``Python 3.5.2``. 
 
 Installation
