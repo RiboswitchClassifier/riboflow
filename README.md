@@ -106,9 +106,9 @@ Additional information
 -----
 For more information, please refer to our manuscript below. 
 
-*Premkumar KAR, Bharanikumar R, Palaniappan A.* (2019) Classifying riboswitches with >99% accuracy. **Microorganisms** (to be submitted)
+*Premkumar KAR, Bharanikumar R, Palaniappan A.* (2020) Riboflow: Classifying riboswitches with >99% accuracy using deep learning. **Frontiers in Bioengineering and Biotechnology** 8:808 [Link](https://www.frontiersin.org/article/10.3389/fbioe.2020.00808)  
 
-Please cite us if you use our services.
+Please cite us if you use our services! Thanks
 
 Package Structure
 -----
