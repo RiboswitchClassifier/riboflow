@@ -104,11 +104,9 @@ Riboswitches Accounted For
     
 Additional information
 -----
-For more information, please refer to our manuscript below. 
+For more information, please refer and cite our manuscript below. 
 
 *Premkumar KAR, Bharanikumar R, Palaniappan A.* (2020) Riboflow: Classifying riboswitches with >99% accuracy using deep learning. **Frontiers in Bioengineering and Biotechnology** 8:808 [Link](https://www.frontiersin.org/article/10.3389/fbioe.2020.00808)  
-
-Please cite us if you use our services! Thanks
 
 Package Structure
 -----
