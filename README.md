@@ -6,6 +6,8 @@
 
 [riboflow](https://test.pypi.org/project/riboflow/) is a python package for classifying putative riboswitch sequences into one of 32 classes with > 99% accuracy. It is based on a [tensorflow](https://www.tensorflow.org) deep learning model. ``riboflow`` has been tested using ``Python 3.5.2``. 
 
+[![](https://img.shields.io/pypi/l/riboflow)
+
 Installation
 ------------
 
@@ -140,8 +142,9 @@ Authors
     - [Github](https://github.com/ramit29)
     - [LinkedIn](https://www.linkedin.com/in/ramit-bharanikumar-12a014114/)
   * Ashok Palaniappan
-    - [Senior Assistant Professor](http://www.sastra.edu/staffprofiles/schools/scbt.php?staff_id=C2164)
+    - [Associate Professor](http://www.sastra.edu/staffprofiles/schools/scbt.php?staff_id=C2164)
     - [Github](https://github.com/apalania)
+    - [Twitter](https://x.com/apalania1)
     - [LinkedIn](https://www.linkedin.com/in/ashokpalaniappan/)
 
 
