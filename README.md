@@ -130,8 +130,7 @@ References and acknowledgements for pypi package development
 
   * http://fouryears.eu/2014/03/19/structure-of-a-python-project/
   * http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/
-  * [Bharat Goel](https://github.com/BharatGoel36) provided help in packaging the application. 
-  
+   
 Authors
 ----------
 
